@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en" ng-app="BmsApp" ng-controller="MainController">
+<head>
+	<meta charset="UTF-8">
+	<script type="text/javascript" src="scripts/angular.js"></script>
+	<script type="text/javascript" src="scripts/route.js"></script>
+	<script type="text/javascript" src="scripts/jquery.js"></script>
+	<script type="text/javascript" src="scripts/jquery_ui.js"></script>
+	<link rel="stylesheet" type="text/css" href="styles/style.css">
+	<link rel="stylesheet" type="text/css" href="styles/calender.css">
+	<title>{{title}}</title>
+</head>
+<body>
+	<div class="main">
+		<div class="header">
+			<div class="container">
+				<div class="header_main"></div>
+			</div>
+		</div>
+		<div ui-view="main">
+		</div>
+		<div class="footer">
+			<div class="container">
+				<div class="copyright">&copy; Copyright Pay And Accounts Office,Govt of Andhra Pradesh</div>
+				<div class="footer_info">Coded in Angularjs and Laravel Framework.Best Viewed In All Latest Browsers.</div>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
